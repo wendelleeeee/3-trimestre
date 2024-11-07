@@ -1,9 +1,21 @@
 body {
     background-color: bisque;
     }
-    footer { 
+    footer {
         background-color: black;
-        color: white; 
+        color: white;
         position: fixed;
-        bottom: 0
-        ;
+        bottom: 0;
+        width: 100%;
+    }
+    footer p{
+        text-align: center;
+        font-size: 0.6rem;
+    }
+    #container {
+        display: flex;
+        }
+        .cartão{
+            margin: 1rem 1rem;
+    
+        }
